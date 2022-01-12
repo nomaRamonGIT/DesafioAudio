@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+    background-image: url("/img/NerdDeNegocios.jpg");
+    background-size: 100% 100%;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.controls{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.btn{
+    position: relative;
+    background-color: red;
+    border-radius: 45px;
+    width: 45px;
+    margin-left: 20px;
+    padding: 8px;
+    top: 100%;
+    transform: translateY(-110%);
+}
+
+.btn:hover{
+    width: 3em;
+}
